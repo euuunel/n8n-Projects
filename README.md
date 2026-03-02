@@ -6,7 +6,7 @@ This repository contains my n8n automation projects built to streamline workflow
 ## 📂 Project Navigation
 
 - [Project 1: AI-Powered Customer Support](#project-1-ai-agent-for-facebook)
-- [Project 2: AI Job Search & Resume Optimizer](#project-2-ai-jobs-scraper-+-resume-optimizer)
+- [Project 2: AI Job Search & Resume Optimizer](#project-2-ai-jobs-scraper-and-resume-optimizer)
 - [Project 3: AI Receptionist & Appointment Automation](#project-3-ai-receptionist)
 ---
 
@@ -42,7 +42,7 @@ This n8n workflow automates client or possible leads support using an AI-powered
 ---
 <br>
 
-### Project 2: AI Jobs Scraper + Resume Optimizer
+### Project 2: AI Jobs Scraper and Resume Optimizer
 This n8n workflow automates job searching and resume customization using Slack and AI. When a job query is sent through Slack, the system first validates the request using AI (Gemini) to ensure it’s clear and relevant. Once confirmed, it automatically searches for matching job opportunities. For each valid job found, the workflow analyzes the job description and intelligently updates the resume to match the role. The resume is optimized in an ATS-friendly format, saved, and prepared for submission — creating a streamlined, AI-powered job application assistant that reduces manual effort and improves application quality.
 
 ### Full Workflow Overview
