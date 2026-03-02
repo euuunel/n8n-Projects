@@ -5,9 +5,9 @@ This repository contains my n8n automation projects built to streamline workflow
 
 ## 📂 Project Navigation
 
-- [Project 1: AI-Powered Customer Support](#project-1-ai-powered-customer-support)
-- [Project 2: AI Job Search & Resume Optimizer](#project-2-ai-job-search--resume-optimizer)
-- [Project 3: AI Receptionist & Appointment Automation](#project-3-ai-receptionist--appointment-automation)
+- [Project 1: AI-Powered Customer Support](#project-1-ai-agent-for-facebook)
+- [Project 2: AI Job Search & Resume Optimizer](#project-2-ai-jobs-scraper-+-resume-optimizer)
+- [Project 3: AI Receptionist & Appointment Automation](#project-3-ai-receptionist)
 ---
 
 ## Projects
