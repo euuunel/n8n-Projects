@@ -127,7 +127,7 @@ The workflow also includes a document ingestion pipeline that downloads files, p
 - **Google Drive** – Document storage and ingestion source  
 - **PostgreSQL** – Chat memory storage for conversation context
 
-## Business Value / Impact
+#### Business Value / Impact
 - Creates an **AI-powered knowledge assistant** capable of answering questions using internal documents  
 - **Reduces time spent searching** through documentation and knowledge bases  
 - **Improves response accuracy** by grounding answers in retrieved data  
