@@ -97,7 +97,43 @@ This n8n workflow powers an AI Receptionist integrated with Vapi to fully automa
 - Reduces manual coordination and front-desk workload  
 - Prevents double bookings with real-time availability checks  
 - Centralizes client and appointment data in Airtable  
-- Enhances customer experience with 24/7 AI voice support  
+- Enhances customer experience with 24/7 AI voice support
+
+---
+<br>
+
+### Project 4: AI Knowledge Base RAG Agent with Vector Search
+This n8n workflow creates an AI-powered assistant that can answer questions using a custom knowledge base. Instead of relying only on the language model’s general knowledge, the system retrieves relevant information from stored documents using vector search. This ensures responses are grounded in real data and reduces hallucinations.
+When a user sends a message through the chat interface, the system processes the query using an AI agent powered by a large language model. The agent converts the query into embeddings and searches for relevant documents stored in a vector database. These documents are then used as context for the AI model to generate accurate and context-aware answers.
+The workflow also includes a document ingestion pipeline that downloads files, processes them, converts them into embeddings, and stores them in the vector database. This allows the assistant to continuously expand its knowledge base.
+
+#### Full Workflow Overview
+![Workflow Overview](n8n_Portfolio/4_RAG_Agent.png)
+
+#### What I Did
+- Built a **Retrieval-Augmented Generation (RAG) AI assistant**
+- Designed a **document ingestion pipeline** to process and embed knowledge base documents
+- Implemented **semantic vector search** for document retrieval
+- Connected an **AI agent** to dynamically retrieve relevant knowledge before generating responses
+- Integrated **conversational memory** to maintain context during chat sessions
+- Created a **scalable architecture** for expanding the knowledge base with new documents
+
+#### Tools & Integrations
+
+- **n8n** – Workflow automation and orchestration  
+- **Supabase** – Vector database for storing embeddings  
+- **pgvector** – PostgreSQL extension for vector similarity search  
+- **OpenAI** – Chat model and embedding generation  
+- **Google Drive** – Document storage and ingestion source  
+- **PostgreSQL** – Chat memory storage for conversation context
+
+## Business Value / Impact
+
+- Creates an **AI-powered knowledge assistant** capable of answering questions using internal documents  
+- **Reduces time spent searching** through documentation and knowledge bases  
+- **Improves response accuracy** by grounding answers in retrieved data  
+- Enables **scalable knowledge ingestion** as new documents are added  
+- Provides a foundation for **enterprise AI assistants, helpdesk bots, or internal documentation tools**
 
 ## Portfolio Summary
 
