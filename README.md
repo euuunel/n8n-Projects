@@ -120,7 +120,6 @@ The workflow also includes a document ingestion pipeline that downloads files, p
 - Created a **scalable architecture** for expanding the knowledge base with new documents
 
 #### Tools & Integrations
-
 - **n8n** – Workflow automation and orchestration  
 - **Supabase** – Vector database for storing embeddings  
 - **pgvector** – PostgreSQL extension for vector similarity search  
@@ -129,7 +128,6 @@ The workflow also includes a document ingestion pipeline that downloads files, p
 - **PostgreSQL** – Chat memory storage for conversation context
 
 ## Business Value / Impact
-
 - Creates an **AI-powered knowledge assistant** capable of answering questions using internal documents  
 - **Reduces time spent searching** through documentation and knowledge bases  
 - **Improves response accuracy** by grounding answers in retrieved data  
