@@ -8,6 +8,7 @@ This repository contains my n8n automation projects built to streamline workflow
 - [Project 1: AI-Powered Customer Support](#project-1-ai-agent-for-facebook)
 - [Project 2: AI Job Search & Resume Optimizer](#project-2-ai-jobs-scraper-and-resume-optimizer)
 - [Project 3: AI Receptionist & Appointment Automation](#project-3-ai-receptionist)
+- [Project 3: AI Knowledge Base RAG Agent with Vector Search](#project-4-rag-agent)
 ---
 
 ## Projects
@@ -134,6 +135,8 @@ The workflow also includes a document ingestion pipeline that downloads files, p
 - **Improves response accuracy** by grounding answers in retrieved data  
 - Enables **scalable knowledge ingestion** as new documents are added  
 - Provides a foundation for **enterprise AI assistants, helpdesk bots, or internal documentation tools**
+
+---
 
 ## Portfolio Summary
 
